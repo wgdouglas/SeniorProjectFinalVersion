@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".MainActivity">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="671dp">
+
+                        <TextView
+                            android:id="@+id/myTextView4b3"
+                            android:layout_width="206dp"
+                            android:layout_height="90dp"
+                            android:layout_marginBottom="44dp"
+                            android:text="This is (TC) Yancy Cowser Hall located behind SHB building to the right and to the left of NSC"
+                            android:textSize="16sp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintStart_toStartOf="@+id/myTextView6" />
+
+                        <TextView
+                            android:id="@+id/myTextView6"
+                            android:layout_width="189dp"
+                            android:layout_height="38dp"
+                            android:layout_marginStart="24dp"
+                            android:layout_marginLeft="24dp"
+                            android:layout_marginTop="504dp"
+                            android:text="Yancy(TC) Hall"
+                            android:textSize="24sp"
+                            android:textStyle="bold"
+                            app:layout_constraintStart_toEndOf="@+id/myImageView5"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <ImageView
+                            android:id="@+id/myImageView5"
+                            android:layout_width="150dp"
+                            android:layout_height="137dp"
+                            android:layout_marginStart="4dp"
+                            android:layout_marginLeft="4dp"
+                            android:contentDescription="TODO"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:layout_constraintVertical_bias="0.917"
+                            app:srcCompat="@drawable/yancy"
+                            tools:ignore="MissingConstraints" />
+
+                        <TextView
+                            android:id="@+id/myTextView"
+                            android:layout_width="184dp"
+                            android:layout_height="44dp"
+                            android:layout_marginStart="24dp"
+                            android:layout_marginLeft="24dp"
+                            android:layout_marginTop="400dp"
+                            android:text="New Science"
+                            android:textSize="24sp"
+                            android:textStyle="bold"
+                            app:layout_constraintStart_toEndOf="@+id/myImageView4"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <TextView
+                            android:id="@+id/myTextView4b2"
+                            android:layout_width="212dp"
+                            android:layout_height="46dp"
+                            android:layout_marginBottom="16dp"
+                            android:text="This is (NSC) the STEM Building"
+                            android:textSize="16sp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintStart_toStartOf="@+id/myTextView"
+                            app:layout_constraintTop_toBottomOf="@+id/myTextView"
+                            app:layout_constraintVertical_bias="0.0" />
+
+                        <ImageView
+                            android:id="@+id/myImageView4"
+                            android:layout_width="150dp"
+                            android:layout_height="125dp"
+                            android:contentDescription="TODO"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:layout_constraintVertical_bias="0.686"
+                            app:srcCompat="@drawable/newsci"
+                            tools:ignore="MissingConstraints" />
+
+                        <ImageView
+                            android:id="@+id/myImageView"
+                            android:layout_width="152dp"
+                            android:layout_height="117dp"
+                            android:contentDescription="TODO"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:layout_constraintVertical_bias="0.22"
+                            app:srcCompat="@drawable/humanities"
+                            tools:ignore="MissingConstraints" />
+
+                        <ImageView
+                            android:id="@+id/myImageView2"
+                            android:layout_width="145dp"
+                            android:layout_height="116dp"
+                            android:layout_marginStart="4dp"
+                            android:layout_marginLeft="4dp"
+                            android:contentDescription="TODO"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:layout_constraintVertical_bias="0.01"
+                            app:srcCompat="@drawable/biddle"
+                            tools:ignore="MissingConstraints" />
+
+                        <ImageView
+                            android:id="@+id/myImageView3"
+                            android:layout_width="150dp"
+                            android:layout_height="127dp"
+                            android:contentDescription="TODO"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:layout_constraintVertical_bias="0.455"
+                            app:srcCompat="@drawable/mccorey"
+                            tools:ignore="MissingConstraints" />
+
+                        <TextView
+                            android:id="@+id/myTextView1"
+                            android:layout_width="176dp"
+                            android:layout_height="37dp"
+                            android:layout_marginStart="32dp"
+                            android:layout_marginLeft="32dp"
+                            android:layout_marginTop="4dp"
+                            android:text="Biddle Hall"
+                            android:textSize="24sp"
+                            android:textStyle="bold"
+                            app:layout_constraintStart_toEndOf="@+id/myImageView2"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <TextView
+                            android:id="@+id/myTextView3"
+                            android:layout_width="174dp"
+                            android:layout_height="49dp"
+                            android:layout_marginStart="28dp"
+                            android:layout_marginLeft="28dp"
+                            android:layout_marginTop="132dp"
+                            android:text="Humanities Hall"
+                            android:textSize="24sp"
+                            android:textStyle="bold"
+                            app:layout_constraintStart_toEndOf="@+id/myImageView"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <TextView
+                            android:id="@+id/myTextView4"
+                            android:layout_width="210dp"
+                            android:layout_height="92dp"
+                            android:layout_marginBottom="16dp"
+                            android:text="This is HUM building as listed in your schedule it hold language and some ids classes"
+                            android:textSize="16sp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintStart_toStartOf="@+id/myTextView3"
+                            app:layout_constraintTop_toBottomOf="@+id/myTextView3"
+                            app:layout_constraintVertical_bias="0.0" />
+
+                        <TextView
+                            android:id="@+id/myTextView2"
+                            android:layout_width="218dp"
+                            android:layout_height="82dp"
+                            android:layout_marginBottom="16dp"
+                            android:text="This is where Admissions, Student financial aid, student accounts, UNCF assistance, and the registrar are located"
+                            android:textSize="16sp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintStart_toStartOf="@+id/myTextView1"
+                            app:layout_constraintTop_toBottomOf="@+id/myTextView1"
+                            app:layout_constraintVertical_bias="0.0" />
+
+                        <TextView
+                            android:id="@+id/myTextView5"
+                            android:layout_width="177dp"
+                            android:layout_height="45dp"
+                            android:layout_marginStart="24dp"
+                            android:layout_marginLeft="24dp"
+                            android:layout_marginTop="288dp"
+                            android:text="McCorey Hall"
+                            android:textSize="24sp"
+                            android:textStyle="bold"
+                            app:layout_constraintStart_toEndOf="@+id/myImageView3"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <TextView
+                            android:id="@+id/myTextView4b"
+                            android:layout_width="225dp"
+                            android:layout_height="49dp"
+                            android:layout_marginBottom="16dp"
+                            android:text="This is MCH building where most business classes are"
+                            android:textSize="16sp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintStart_toStartOf="@+id/myTextView5"
+                            app:layout_constraintTop_toBottomOf="@+id/myTextView5"
+                            app:layout_constraintVertical_bias="0.027" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>
